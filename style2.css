@@ -1,0 +1,93 @@
+/* Grid layout
+----------------------*/
+
+* {
+	box-sizing: border-box;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+, nav, header, section, article {
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+[class*="col-"] {
+    float: left;
+   
+}
+
+section:before, section:after {
+	content: "";
+	display:table;
+	clear:both;
+}
+
+body {
+	
+}
+
+nav {
+	height: 150px;
+	background: black;
+	width: 100%;
+	margin: 0 auto;
+}
+
+header {
+	height: 100px;
+	background: blue;
+	width: 100%;
+	margin: 0 auto;
+}
+
+main section {
+	background-color: grey;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.news {
+	background-color: pink;
+	height: 400px;
+}
+
+.links {
+	background-color: brown;
+}
+
+.web2 {
+	background-color: red;
+	line-height: 100px;
+}
+.print2{
+	background-color: orange;
+	line-height: 100px;
+}
+.game2 {
+	background-color: tomato;
+	line-height: 100px;
+}
+.bob2 {
+	background-color: yellow;
+	line-height: 100px;
+
+}
+
+footer {
+	height: 200px;
+	background: black;
+	width: 100%
+	margin: 0 auto;
+}
